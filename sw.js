@@ -1,7 +1,7 @@
 /* Poleo: cache della sola applicazione, dati personali solo in localStorage. */
 'use strict';
 const PREFIX = 'poleo-shell:' + self.registration.scope + ':';
-const CACHE = PREFIX + 'f05be4292792';
+const CACHE = PREFIX + 'a9d3597ddde6';
 const ASSETS = ['./','./index.html','./manifest.webmanifest','./logo.svg','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png','./icons/apple-touch-icon.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));

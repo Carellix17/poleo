@@ -2,6 +2,17 @@
 
 Demo in italiano per il Liceo Cartesio di Triggiano: libri scolastici e altri oggetti usati, con ritiro dentro la scuola.
 
+**Apri Poleo:** https://carellix17.github.io/poleo/
+
+## Nuova interfaccia
+
+- Home distinta dalla ricerca, con categorie, ultimi arrivi, libri per la propria classe e attività personali.
+- Barra fluttuante con Home, Cerca, Vendi, Messaggi e Profilo.
+- Caricamento ispirato alla sequenza ufficiale Vinted: foto, titolo/descrizione, categoria/dettagli, condizioni, prezzo e pubblicazione. Su Poleo la consegna resta dentro la scuola.
+- Bozza salvata sul dispositivo, anteprima e scelta della foto di copertina.
+- Feedback aptico facoltativo sui browser compatibili, disattivabile dal Profilo.
+- Animazioni brevi che rispettano la preferenza di movimento ridotto.
+
 ## Sul telefono
 
 Apri il sito pubblicato tramite GitHub Pages in **Chrome su Android**, poi usa **⋮ → Aggiungi a schermata Home → Installa** oppure il pulsante **Installa app** dentro Poleo. In Safari su iPhone: **Condividi → Aggiungi alla schermata Home**.
@@ -10,7 +21,7 @@ L’icona avvia una finestra dedicata senza la barra del browser. Dopo la prima 
 
 ## Versione HTML singola
 
-`Poleo.html` è la demo originale autosufficiente: scaricala e aprila con un browser anche senza un server. La versione installabile usa invece `index.html`, `manifest.webmanifest`, `sw.js` e le icone e richiede HTTPS per l’installazione.
+`Poleo.html` è la demo autosufficiente: scaricala e aprila con un browser anche senza un server. La versione installabile usa invece `index.html`, `manifest.webmanifest`, `sw.js` e le icone e richiede HTTPS per l’installazione.
 
 ## Pubblicazione gratuita con GitHub Pages
 
