@@ -1,0 +1,4 @@
+.openai/
+web-preview/
+.DS_Store
+*.log

@@ -1,0 +1,38 @@
+{
+  "id": "./",
+  "name": "Poleo · Il mercatino del Cartesio",
+  "short_name": "Poleo",
+  "description": "Libri e oggetti usati tra compagni del Liceo Cartesio di Triggiano. Demo interattiva.",
+  "lang": "it",
+  "dir": "ltr",
+  "start_url": "./?source=app",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f6f0",
+  "theme_color": "#244e40",
+  "prefer_related_applications": false,
+  "categories": [
+    "shopping",
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
